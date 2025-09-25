@@ -35,7 +35,6 @@
         <button type="submit">계산</button>
     </form>
 
-    <!-- ✅ 이전 UI 유지: 이력 초기화 버튼 복원 -->
     <form method="POST" action="{{ url_for('history_clear') }}"
           onsubmit="return confirm('일반 계산기 이력을 모두 삭제하고 ID를 초기화할까요?');">
         <button type="submit">일반 이력 초기화</button>
